@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+poetry.lock
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+
+# Логи и временные файлы
+logs/
+*.log
+/tmp/
+*.bak
+.DS_Store
+Thumbs.db
+/sftp_data
+
+# Файлы окружения
+.env
+.env.*
+
+# База данных и миграции
+postgres_data/
+
+# Redis, RabbitMQ, MinIO
+redis_data/
+rabbitmq_data/
+minio_data/
+
+# Pytest cache
+.pytest_cache/
